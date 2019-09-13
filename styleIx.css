@@ -242,3 +242,9 @@ height: 20%;
     height: 20vh;
     background-color: #1FD9C7;
 }
+
+.div{
+    width: 50vh;
+    height: 50vh;
+    border: solid 1px red;
+}
