@@ -3,7 +3,7 @@
 .TituloCustom {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     color: #090318;
 }
 
@@ -22,6 +22,11 @@ font-size: 16px;
     border: solid 1px white;
     box-shadow: 2px 2px 16px rgba(173, 57, 129, 0.1);
 }
+
+.SeparacionSeccion{
+    margin-top: 80px;
+}
+
 
 .BodyPerfil{
     /* border: solid 3px rgb(152, 250, 114); */
@@ -90,7 +95,7 @@ font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 600;
-    color: #17a2b8;
+    color: #4447da;
 }
 
 
@@ -116,10 +121,12 @@ font-size: 16px;
 
 .Historia{
     width: 100%;
-    height: 30%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .Logros{
@@ -134,7 +141,9 @@ height: 20%;
     height: 80px;
     /* background-color: rgb(11, 255, 44); */
     border-radius: 8px;
-    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -185,4 +194,43 @@ height: 20%;
      justify-content: space-around;
     width: 100%;
     height: 40%;
+}
+
+
+
+/* Estilos Premios */
+
+.CopyCustom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+
+/* Estilos Home */
+.Identidad{
+    display: flex;
+    justify-content: space-around;
+}
+
+.CajaTexto{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ImagenHome{
+    width: 60%;
+}
+
+.GifCustom{
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.FormularioContacto{
+    background-color: #090318;
+    
 }
