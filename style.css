@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+
+.font{
+  font-family: 'Signika', sans-serif;
+}
+
 .img{
     height: 30px;
 }
@@ -110,7 +117,7 @@ html {
   }
   
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-    background-color: #39ace7;
+    background-color: #15c78e;
   }
   
   input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
@@ -242,7 +249,7 @@ html {
     bottom: -10px;
     width: 0;
     height: 2px;
-    background-color: #56baed;
+    background-color: #15c78e;
     content: "";
     transition: width 0.2s;
   }
@@ -277,4 +284,14 @@ html {
   .img2{
       width: 240px;
       height: 240px;
+      object-fit: cover;
+  }
+
+  .palabras {
+    color: white !important;
+    transition: 1s all ease;
+  }
+
+  .palabras:hover {
+    color: #15c78e !important;
   }
