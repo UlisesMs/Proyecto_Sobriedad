@@ -16,6 +16,13 @@ font-size: 16px;
     color: #fff;
 }
 
+.BotonCustom{
+    border-radius: 50px;
+    background: linear-gradient(#8b09ac,#f06407);
+    border: solid 1px white;
+    box-shadow: 2px 2px 16px rgba(173, 57, 129, 0.1);
+}
+
 .BodyPerfil{
     /* border: solid 3px rgb(152, 250, 114); */
     height: 98vh;
@@ -56,6 +63,7 @@ font-size: 16px;
 
 .ImagenPerfil{
     width: 240px;
+    margin: 20px;
 }
 
 .Formulario{
@@ -162,6 +170,12 @@ height: 20%;
     align-items: center;
     width: 100%;
     height: 20vh;
+}
+
+.BarraBusqueda{
+    background-color: #fff;
+    box-shadow: 2px 2px 16px rgb(16, 13, 17, 0.2); 
+    border-radius: 50px;
 }
 
 .Ubicaciones{
