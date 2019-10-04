@@ -8,7 +8,16 @@
 .img{
     height: 24px;
 }
-
+.Imagenmapa{
+width: 100%;
+}
+.ImgInic{
+  width: 100%;
+  height: 30%;
+}
+.cardimg{
+  width: 100%;
+}
 .log{
        border: solid 1px red;
    
