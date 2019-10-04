@@ -70,6 +70,7 @@ justify-content: center;
 .ImagenPerfil{
     width: 240px;
     margin: 20px;
+    height: 170px;
 }
 
 .Formulario{
@@ -146,6 +147,7 @@ height: 20%;
     justify-content: center;
     align-items: center;
 }
+
 
 
 

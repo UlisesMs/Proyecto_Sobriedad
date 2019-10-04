@@ -21,6 +21,18 @@ width: 100%;
 }
 =======
 
+<<<<<<< HEAD
+.imgPre {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+=======
 .perrito{
   border-radius: 30px;
   margin-top: 10px;
@@ -28,6 +40,7 @@ width: 100%;
 }
 
 >>>>>>> 2e2d88aeea2620979b6a97feb69964a2c9c57ccf
+>>>>>>> 886dee3cd8c826fe3755b091d9a1572e4ba6d726
 .log{
        border: solid 1px red;
    
