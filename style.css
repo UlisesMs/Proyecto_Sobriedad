@@ -9,6 +9,16 @@
     height: 24px;
 }
 
+.imgPre {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .log{
        border: solid 1px red;
    
