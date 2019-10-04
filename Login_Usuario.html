@@ -1,100 +1,118 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="./styleIx.css">
-    <title>Log in</title>
-  </head>
-  <body>
-    <header>
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(32, 31, 31)">
-                <a class="navbar-brand " href="./home.html">
-                    <img class="img" src="https://pbs.twimg.com/profile_images/790987023695740928/rMLGQbRn_400x400.jpg"
-                        alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-  
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link font palabras" href="./Catalog_Pa.html">Padrinos <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font palabras" href="./Catalogo2.html">Centros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font palabras" href="./Premios.html">Premios</a>
-                        </li>
-                        <li class="nav-item d-flex justify-content-end" style="width: 72em">
-                            <a class="nav-link" href="./Login_Usuario.html">
-                                <img class="img"
-                                    src="./img/user.svg"
-                                    alt="Icono-usuario">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </section>
-    </header>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <main style="margin-top: 58px">
-        <section>
-          <div class="wrapper fadeInDown">
-          <div id="formContent">
-            <!-- Tabs Titles -->
-        
-            <!-- Icon -->
-            <div class="fadeIn first">
-              <img src="https://pbs.twimg.com/profile_images/790987023695740928/rMLGQbRn_400x400.jpg" id="icon" alt="User Icon" />
-            </div>
-        
-            <!-- Login Form -->
-            <form>
-              <input type="text" id="correo" class="fadeIn second" name="login" placeholder="Correo">
-              <input type="text" id="contra" class="fadeIn third" name="login" placeholder="Contraseña">
-             
-             <a href="./Perfil.html">
-               <input type="button" class="fadeIn fourth" value="Log In" id="boton">
-             </a> 
-            </form>
-        
-            <!-- Remind Passowrd -->
-            <div id="formFooter">
-              <a class="underlineHover" href="#">Olvidaste tu Contraseña?</a>
-            </div>
-        
-          </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./Huellita .png" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styleIx.css">
+  <title>Log in</title>
+</head>
+
+<body>
+  <header>
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(32, 31, 31)">
+        <a class="navbar-brand " href="./home.html">
+          <img class="img" src="./Huellita .png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link font palabras" href="./Catalog_Pa.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font palabras" href="./Catalogo2.html">Catalogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font palabras" href="./Premios.html">Logros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font palabras" href="#">Adopción</a>
+            </li>
+            <li class="nav-item d-flex justify-content-end" style="width: 72em">
+              <a class="nav-link" href="./Login_Usuario.html">
+                <img class="img" src="./Perrito.jpg" alt="Icono-usuario">
+              </a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </section>
+  </header>
 
-    </main>
+  <main style="margin-top: 58px">
+    <section>
+      <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
 
+          <!-- Icon -->
+          <div class="fadeIn first ">
+            <img src="./Perrito.jpg" id="icon" alt="User Icon" class="perrito" />
+          </div>
+
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="correo" class="fadeIn second" name="login" placeholder="Correo">
+            <input type="text" id="contra" class="fadeIn third" name="login" placeholder="Contraseña">
+
+            <a href="./Perfil.html">
+              <input type="button" class="fadeIn fourth" value="Log In" id="boton">
+            </a>
+          </form>
+
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Olvidaste tu Contraseña?</a>
+          </div>
+
+        </div>
+      </div>
+
+  </main>
+
+  <footer>
+    <section class="CustomImagenPortadaInterior">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e103cd75831795.5c9dfe300afee.gif"
+        alt="Imagen-Premios">
+    </section>
+  </footer>
+
+
+<<<<<<< HEAD
     <footer>
         <section class="CustomImagenPortadaInterior">
             <img class="" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e103cd75831795.5c9dfe300afee.gif"
                 alt="Imagen-Premios">
         </section>
     </footer>
+=======
+>>>>>>> 7137ea46ed5e525e0f54af884e5859953575ff92
 
-    
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
-  </body>
 </html>
