@@ -9,7 +9,8 @@
 
 .TextoCustom{
 font-family: 'Montserrat', sans-serif;
-font-size: 16px;
+font-size: 15px;
+justify-content: center;
 }
 
 .TextoBlanco{
@@ -222,7 +223,7 @@ height: 20%;
 }
 
 .ImagenHome{
-    width: 60%;
+    width: 50%;
 }
 
 .GifCustom{
@@ -248,5 +249,8 @@ height: 20%;
     height: 50vh;
     border: solid 1px red;
 }
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 7137ea46ed5e525e0f54af884e5859953575ff92
